@@ -6,10 +6,25 @@ Some Object Oriented concepts
 - Declare = something with this name and type exist. Not the information the variable stores
 - Define. Assign data to a variable. 
 
+### Static
+- Variable exists for all instances of a class.
+- 
+
 ### Interface 
 - All public, static, and final
 - Declares methods and public variables without the implementation 
 - Methods must be implemented by a class that 'implements' the interface. 
+
+### Class
+- 
+
+### Abstraction
+
+### Methods
+- Class Methods
+	- Instance Methods
+		- Called on an instance/an object of a class
+		- objectName.instanceMethod();
 
 
 ### Abstract class 
