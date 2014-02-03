@@ -11,6 +11,7 @@ Variables and Methods
 
 ### Static
 - Variable exists for all instances of a class.
+- Can be accessed without an instance of a class.
 
 ### Final vs Const
 - Variable who's value never changes.
@@ -37,24 +38,20 @@ Object Oriented Programming Concepts
 ### Class
 - 
 
-### Abstraction
-- Client has access to a class but knows only what the class does, not how it works.
-
 ### Methods
 - Class Methods
-	- Instance Methods
-		- Called on an instance/an object of a class
-		- objectName.instanceMethod();
-
+- Instance Methods
+	- Called on an instance/an object of a class
+	- objectName.instanceMethod();
 
 ### Abstract class 
 - Allows private variables 
 - An incomplete class
 - Any sub class must implement all the methods or be declared abstract itself. 
 
-
 ### Abstraction
-- Hiding data
-- How an interface just shows the methods
-- We don't know the components , we just know the parameters and results 
+- Hiding data.
+- How an interface just shows the methods.
+- Client has access to a class but knows only what the class does, not how it works.
+- We don't know the components, we just know the parameters and results.
 
