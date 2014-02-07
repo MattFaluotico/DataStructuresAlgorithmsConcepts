@@ -33,7 +33,11 @@ Object Oriented Programming Concepts
 ### Interface 
 - Al variables are public, static, and final
 - Declares methods and public variables without the implementation 
+- Contain method signatures (similar to Prototypes in C)
 - Methods must be implemented by a class that 'implements' the interface. 
+- THe can be used to create multiple implementations of classes
+    + All complete the same tasks, but do them in different ways. 
+- An interface exists to show the properties an object must be able to complete. It gives methods that need to be implemented. 
 
 ### Class
 - 
