@@ -3,7 +3,7 @@
 Some Object Oriented concepts 
 
 Variables and Methods
--
+
 
 ### Declare vs define
 - Declare = something with this name and type exist. Not the information the variable stores
@@ -15,7 +15,7 @@ Variables and Methods
 
 ### Final vs Const
 - Variable who's value never changes.
-- C++
+- C/C++
 	- Uses const to declare.
 - Java
 	- Uses final to declare.
@@ -40,13 +40,30 @@ Object Oriented Programming Concepts
 - An interface exists to show the properties an object must be able to complete. It gives methods that need to be implemented. 
 
 ### Class
-- 
+- Object template
+- Build the foundation of an object, the attributes of an object,  the things am object can do (methods). 
+- Sets initial values
+- Creates abstraction with method names and private variables
+- We know what instances of the object represents, but we don't know how it is made up
 
 ### Methods
 - Class Methods
+    + Methods that are implemented inside of a class but do not require an instances of the class to call. T
+    + Do **not** have access to the member variables of a class
+    + **Can** utilize static variables in a class
+    + `classname.classMethod(...)`
 - Instance Methods
 	- Called on an instance/an object of a class
-	- objectName.instanceMethod();
+	- `objectName.instanceMethod(...);`
+
+### Friend Functions
+- Have access to the private variables of a class
+- Static methods can access class variables
+- [Friend Functions and Classes Example](http://www.cplusplus.com/doc/tutorial/inheritance/); 
+
+### Friend Class
+- Similar to friend functions
+- You can access everything from the friend class, rather than just in one method. 
 
 ### Abstract class 
 - Allows private variables 
