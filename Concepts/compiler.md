@@ -18,7 +18,7 @@ A variable must be kept alive if it is needed by other variabels down the road
 
 ### Strong
 
-Anything that points to a strong variable will not be destoryed as long as I still have the strong variable.
+As long as something points to a strong object, the object will not be removed from memory
 
 Since an object holds onto its attributes, the attributes are strong
 
@@ -31,6 +31,8 @@ object ---> Strong (attribute)
 
 If there is no strong reference to the object, it is removed off the heap
 
+Delegats should be weak
+
 - Delegates
 - Sub/ Child Views
 
@@ -39,6 +41,7 @@ If there is no strong reference to the object, it is removed off the heap
 ## Compiling
 
 * The compiler takes a program (source code/ text ) and turns it into an execuatable. Without it, a file is simply text.
+* Usually takes two passthroughts
 
 ### Process
 
@@ -59,7 +62,7 @@ If there is no strong reference to the object, it is removed off the heap
   - Groups everything together
   - Blocks, while loops, if statements, etc.
 2. Parsing the tokens
-  - Formats them in a tree
+  - Formats them in a syntax tree
 3. Optimize and Error
   - Makes sure the code is correct
   -
